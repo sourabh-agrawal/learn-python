@@ -1,35 +1,37 @@
 # number in python
-# def main():
-# 	print(88/5)
-# 	print(88//5)
-# 	print(88%5)
-# 	print(round(9.45))
-# 	print(round(9.5))
-# 	print(round(9.45,1))
-# 	print(round(6.45,1))
-# if __name__ == '__main__':
-#     main()
+def main():
+    print(88 / 5)
+    print(88 // 5)
+    print(88 % 5)
+    print(round(9.45))
+    print(round(9.5))
+    print(round(9.45, 1))
+    print(round(6.45, 1))
+
+
+if __name__ == '__main__':
+    main()
 
 ########################################################################
 
 # strings in python
 # def main():
-# 	str1 = '    This is first '\
-# 	       'type of string'
-# 	str2 = "    This is second " \
-# 	       "type of string"
-# 	str3 = '''    This is third
+#     str1 = '    This is first ' \
+#            'type of string'
+#     str2 = "    This is second " \
+#            "type of string"
+#     str3 = '''    This is third
 # 	type of string'''
-# 	str4 = """    This is forth
+#     str4 = """    This is forth
 # 	type of string"""
-# 	print(str1)
-# 	print(str2)
-# 	print(str3)
-# 	print(str4)
+#     print(str1)
+#     print(str2)
+#     print(str3)
+#     print(str4)
+#
 #
 # if __name__ == '__main__':
 #     main()
-
 
 # so if i write a string in a single line then all the four types will show the blank
 # spaces in the output that are mentioned in the string
@@ -59,7 +61,6 @@
 #####################################################################
 
 
-
 # list, tuples and dictonary in python
 
 # tuples are fixes/immutable but the list is not we can append nay value in the list
@@ -78,43 +79,44 @@
 
 # list:
 # def main():
-# 	list = [10, 20, 30]
-# 	print(list)
-# 	for i in list:
-# 		print(i)
-# 	list.append(40)
-# 	list.insert(0,1)
-# 	print(list)
+#     list = [10, 20, 30]
+#     print(list)
+#     for i in list:
+#         print(i)
+#     list.append(40)
+#     list.insert(0, 1)
+#     print(list)
+#
+#
 # if __name__ == '__main__':
 #     main()
 
 
-#dictonary: can be called as associative array or hash
+# dictonary: can be called as associative array or hash
 # 2 way of making the dictonary
 
 # def main():
-# 	dict1 = {"one":1, "two":2}
-# 	print(dict1)
+#     dict1 = {"one": 1, "two": 2}
+#     print(dict1)
 #
-# 	dict2 = dict([("one",1), ("two",2)])
-# 	print(dict2)
+#     dict2 = dict([("one", 1), ("two", 2)])
+#     print(dict2)
 #
-# 	dict3 = dict(one = 1, two = 2)
-# 	print(dict3)
-# 	print(dict3["two"])
-# 	print(dict2["two"])
-# 	print(dict1["two"])
+#     dict3 = dict(one=1, two=2)
+#     print(dict3)
+#     print(dict3["two"])
+#     print(dict2["two"])
+#     print(dict1["two"])
 #
-# 	dict3["three"] = 3
-# 	print(dict3)
+#     dict3["three"] = 3
+#     print(dict3)
 #
-# 	for i in dict3:
-# 		print(i,"=>",dict3[i])
+#     for i in dict3:
+#         print(i, "=>", dict3[i])
+#
+#
 # if __name__ == '__main__':
 #     main()
-
-
-
 
 ################################################################
 
@@ -123,13 +125,14 @@
 # but can be implemented using another methods
 #
 # def main():
-# 	days = dict(one = "Monday", two = "Tuesday", three = "wednesday")
-# 	case = "one"
-# 	print(days[case])   # but here the error will come if the case value is not
-# 						# present in the days then as switch case we have to use
-# 						# the default value so for that do the following
-# 	case = "four"
-# 	print(days.get(case,"No match"))
+#     days = dict(one="Monday", two="Tuesday", three="wednesday")
+#     case = "one"
+#     print(days[case])  # but here the error will come if the case value is not
+#     # present in the days then as switch case we have to use
+#     # the default value so for that do the following
+#     case = "four"
+#     print(days.get(case, "No match"))
+#
 #
 # if __name__ == '__main__':
 #     main()
@@ -138,16 +141,17 @@
 ####################################################################
 
 
-
 # while loop for fibonachi series
 
 # def main():
-# 	first = 0
-# 	second = 1
-# 	print(first,end=' ')
-# 	while second<100:
-# 		print(second,end=' ')
-# 		first, second = second, first+second
+#     first = 0
+#     second = 1
+#     print(first, end=' ')
+#     while second < 100:
+#         print(second, end=' ')
+#         first, second = second, first + second
+#
+#
 # if __name__ == '__main__':
 #     main()
 
@@ -190,7 +194,6 @@
 # if __name__ == '__main__': main()
 
 
-
 #######################################################################
 
 # operations in python
@@ -224,27 +227,25 @@
 # and->and, or->or, &->bitwise and,
 # slice operation is last value exclusive means the last value is not going to be presented in the output
 # def main():
-# 	list = [1, 2, 3, 4, 6, 7]
-# 	print(True and False)
-# 	print(list[:7])
-# 	print(list[0:])
-# 	print(list[0:2])
-# 	print(list[0:7:2])
+#     list = [1, 2, 3, 4, 6, 7]
+#     print(True and False)
+#     print(list[:7])
+#     print(list[0:])
+#     print(list[0:2])
+#     print(list[0:7:2])
 #
-# # 	range operation: here also the last value is not going to be there in the result
-# 	for i in range(0,10):
-# 		print(i,end=' ')
+#     # 	range operation: here also the last value is not going to be there in the result
+#     for i in range(10):
+#         print(i, end=' ')
 #
-# # list1[:] , : is a short hand operator
+#     # list1[:] , : is a short hand operator
 #
-# 	list2 = []
-# 	list2[:] = range(1, 20)
-# 	print(list2)
+#     list2 = []
+#     list2[:] = range(1, 20)
+#     print("\n{}".format(list2))
 #
 #
-# if __name__ == '__main__':main()
-
-
+# if __name__ == '__main__': main()
 
 
 ##########################################################################
@@ -314,23 +315,22 @@
 
 # list and tuples inbuilt functions
 # def main():
+#     tup = tuple(range(20))
+#     lis = list(range(21, 40))
+#     print(tup)
+#     singletup = (1,)
+#     print(type(singletup))
+#     list2 = [1, 2, 3]
+#     list3 = list(range(1, 6))
+#     list4 = list2 + list3
+#     print(list4)
 #
-# 	tup = tuple(range(20))
-# 	lis = list(range(21, 40))
-# 	print(tup)
-# 	singletup = (1,)
-# 	print(type(singletup))
-# 	list2 = [1, 2, 3]
-# 	list3 = list(range(1, 6))
-# 	list4 = list2+list3
-# 	print(list4)
+#     print(2 in tup)
 #
-# 	print(2 in tup)
+#     lis.append(200)
+#     print(lis.count(1))
 #
-# 	lis.append(200)
-# 	print(lis.count(1))
-#
-# 	print(lis)
+#     print(lis)
 #
 #
 # if __name__ == '__main__': main()
@@ -372,7 +372,6 @@
 # if __name__ == '__main__': main()
 
 
-
 #################################################################
 
 # try except - try exceptions in python
@@ -392,10 +391,8 @@
 # if __name__ == '__main__': main()
 
 
-
-
 #####################################################################
-#getting started with functions
+# getting started with functions
 
 # def main():
 # 	myfun()
@@ -419,8 +416,6 @@
 #
 #
 # if __name__ == '__main__': main()
-
-
 
 
 ########################################################################
@@ -451,8 +446,6 @@
 # if __name__ == '__main__': main()
 
 
-
-
 #################################################################
 # returning values from functions
 #
@@ -470,7 +463,6 @@
 #
 #
 # if __name__ == '__main__': main()
-
 
 
 ##########################################################################
@@ -492,10 +484,8 @@
 # if __name__ == '__main__': main()
 
 
-
 # This program will give the result but for large input it will use lots of memory
 # and time so we will use generator functions
-
 
 
 # generator function doesn't have return statement in it
@@ -519,9 +509,6 @@
 # if __name__ == '__main__': main()
 
 
-
-
-
 # type 3rd - list comprihension:
 
 
@@ -538,7 +525,6 @@
 #
 
 
-
 ##################################################################
 # searching and replacing with re module
 
@@ -551,7 +537,6 @@
 #
 #
 # if __name__ == '__main__': main()
-
 
 
 ####################################################################
@@ -585,7 +570,6 @@
 # and then all the procedure is same
 
 
-
 #########################################################################
 
 #  methods and constructors:
@@ -612,7 +596,6 @@
 #
 #
 # if __name__ == '__main__': main()
-
 
 
 ###################################################################
@@ -687,7 +670,6 @@
 # if __name__ == '__main__': main()
 
 
-
 ####################################################################
 # Decorators/properties in python
 
@@ -736,9 +718,6 @@
 # if __name__ == '__main__': main()
 
 
-
-
-
 ################################################################
 # python standard libraries
 
@@ -760,14 +739,11 @@
 # if __name__ == '__main__': main()
 
 
-
 ####################################################################
 # third party modules
 #
 # simply download them and using cmd go in the zipped folder
 # then type "python3 setup.py install"
-
-
 
 
 ######################################################################
@@ -790,8 +766,6 @@
 # if __name__ == '__main__': main()
 
 
-
-
 ######################################################################
 # web scraping in python 1
 # getting the title of the lco website
@@ -809,23 +783,22 @@
 # if __name__ == '__main__': main()
 
 
-
 ######################################################################
 # web scraping in python 2
 # to get all the heading in the https://en.wikipedia.org/wiki/Machine_learning
 
-import requests
-import bs4
-def main():
-    res = requests.get('https://en.wikipedia.org/wiki/Machine_learning')
-    soup = bs4.BeautifulSoup(res.text,'lxml')
-    a = soup.select('title')
-    print(a[0].text)
-    b = soup.select('.toctext')
-    c = soup.select('.tocnumber')
-    for i in range(0,len(b)):
-        x = c[i].text
-        print(c[i].text, b[i].text)
-
-
-if __name__ == '__main__': main()
+# import requests
+# import bs4
+# def main():
+#     res = requests.get('https://en.wikipedia.org/wiki/Machine_learning')
+#     soup = bs4.BeautifulSoup(res.text,'lxml')
+#     a = soup.select('title')
+#     print(a[0].text)
+#     b = soup.select('.toctext')
+#     c = soup.select('.tocnumber')
+#     for i in range(0,len(b)):
+#         x = c[i].text
+#         print(c[i].text, b[i].text)
+#
+#
+# if __name__ == '__main__': main()
