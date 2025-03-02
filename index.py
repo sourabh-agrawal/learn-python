@@ -1,13 +1,12 @@
+import math
 # number in python
 def main():
     print(88 / 5)
     print(88 // 5)
     print(88 % 5)
-    print(round(9.45))
-    print(round(9.5))
-    print(round(9.45, 1))
-    print(round(6.45, 1))
-
+    print("round", round(9.45),round(9.5),round(9.6),round(9.45, 1),round(6.45, 1))
+    print("ceil",math.ceil(9.45),math.ceil(9.55),math.ceil(9.5))
+    print("floor",math.floor(9.45),math.floor(9.55),math.floor(9.5))
 
 if __name__ == '__main__':
     main()
